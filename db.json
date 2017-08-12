@@ -3,18 +3,18 @@
     {"id":"1","first_name: "Bob", "Redford", "address":"800 Kigng Edward", "phone": 1234556, "email": "br@gmail.com", "password":"password"},
   ],
   "shelters": [
-    {"id":"1", "name": "first shelter", "description":"The first shelter", "location": "Ottawa", "Shelterowner":"1"},
-    {"id":"2", name": "Second shelter", "description":"The second shelter", "location": "Toronto", "Shelterowner":"1"},
-    {"id":"3", name": "Third shelter", "description":"The third shelter", "location": "Vancouver", "Shelterowner":"1"}
+    {"id":"1", "name": "first shelter", "description":"The first shelter", "location": "Ottawa", "userId":"1"},
+    {"id":"2", name": "Second shelter", "description":"The second shelter", "location": "Toronto", "userId":"1"},
+    {"id":"3", name": "Third shelter", "description":"The third shelter", "location": "Vancouver", "userId":"1"}
   ],
   "Devices":[
-    {"id":"1", "name": "Thermoter", "description":"Measures soil temperature", "house":1},
-    {"id":"2", "name": "Barometer", "description":"Measures air pressure in the greenhouse", "house":2},
-    {"id":"3", "name": "Moisture Meter", "description":"Measures soil moisture", "house":1}
+    {"id":"1", "name": "Thermoter", "description":"Measures soil temperature", "shelterId":"1"},
+    {"id":"2", "name": "Barometer", "description":"Measures air pressure in the greenhouse", "shelterId":"2"},
+    {"id":"3", "name": "Moisture Meter", "description":"Measures soil moisture", "shelterId":"1"}
   ],
   "Readings":[
-    {"id":"1", "name":"Temperature", "value":"30", "unit":"celsius", "sensor":"1"},
-    {"id":"2", "name":Pressure", "value":"101.325", "unit":"kilopascal", "sensor":"2"}
-    {"id":"3", "name":Soil moisture", "value":"34", "unit":"percent", "sensor":"2"}
+    {"id":"1", "name":"Temperature", "value":"30", "unit":"celsius", "deviceId":"1"},
+    {"id":"2", "name":Pressure", "value":"101.325", "unit":"kilopascal", "deviceId":"2"}
+    {"id":"3", "name":Soil moisture", "value":"34", "unit":"percent", "deviceId":"2"}
   ]
 }
