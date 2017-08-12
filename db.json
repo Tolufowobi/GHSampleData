@@ -1,5 +1,5 @@
 {
-  "Users: [
+  "users": [
     {"id":"1","first_name: "Bob", "Redford", "address":"800 Kigng Edward", "phone": 1234556, "email": "br@gmail.com", "password":"password"},
   ],
   "shelters": [
