@@ -1,6 +1,6 @@
 {
   "users": [
-    {"id":"1","first_name": "Bob", "Redford", "address":"800 Kigng Edward", "phone": 1234556, "email": "br@gmail.com", "password":"password"},
+    {"id":"1","first_name": "Bob", "last_name": "Redford", "address":"800 King Edward", "phone": 1234556, "email": "br@gmail.com", "password":"password"},
   ],
   "shelters": [
     {"id":"1", "name": "first shelter", "description":"The first shelter", "location": "Ottawa", "userId":"1"},
