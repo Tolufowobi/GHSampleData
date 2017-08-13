@@ -9,7 +9,7 @@
   ],
   "devices":[
     {"id":"1", "name": "Thermoter", "description":"Measures soil temperature", "shelterId":"1"},
-    {"id":"2", "name": "Barometer", "description":"Measures air pressure in the greenhouse", "shelter":"2"},
+    {"id":"2", "name": "Barometer", "description":"Measures air pressure in the greenhouse", "shelterid":"2"},
     {"id":"3", "name": "Moisture Meter", "description":"Measures soil moisture", "shelterId":"1"}
   ],
   "readings":[
